@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#input-fields > div {
+    margin-bottom: 10px;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#qr-code {
+    margin-top: 20px;
+}
+
+.share-buttons a {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Add responsive design using media queries */
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+}
